@@ -27,6 +27,48 @@
       "synopsis": "Telewizjada - Telewizja na zywo",
       "title": "Telewizjada",
       "version": "0.0.5"
+    },
+    {
+      "author": "pisek",
+      "category": "tv",
+      "description": "<p>Pornhub - Free porn sex videos & pussy movies. Porn hub is the ultimate xxx porn,sex and pussy tube, download sex videos or stream free xxx and free sex movies.</p><p>For searching please use Movian's main search field.</p><p>More info at <a href=\"https://github.com/pisek/showtime-plugin-pornhub\">https://github.com/pisek/showtime-plugin-pornhub</a> and <a href=\"http://www.pornhub.com\">http://www.pornhub.com</a>",
+      "downloadURL": "https://github.com/pisek/showtime-plugin-pornhub/releases/download/v1.0.4/pornhub.zip",
+      "homepage": "https://github.com/pisek/showtime-plugin-pornhub",
+      "icon": "https://raw.githubusercontent.com/pisek/showtime-plugin-pornhub/master/pornhub/logo.png",
+      "id": "pornhub",
+      "popularity": 1,
+      "showtimeVersion": "4.9.46",
+      "synopsis": "Pornhub - Free porn sex videos & pussy movies. Porn hub is the ultimate xxx porn,sex and pussy tube, download sex videos or stream free xxx and free sex movies.",
+      "title": "Pornhub",
+      "version": "1.0.4"
+    },
+    {
+      "author": "pisek",
+      "category": "video",
+      "description": "<p>Torrentz - Here you will have an opportunity to search and watch any kind of movie/series, music and pictures on Movian using a search engine Torrentz.eu</p><p>For searching please use Movian's main search field.</p><p>More info at <a href=\"https://github.com/pisek/showtime-plugin-torrentz\">https://github.com/pisek/showtime-plugin-torrentz</a> and <a href=\"https://torrentz.eu\">https://torrentz.eu</a>",
+      "downloadURL": "https://github.com/pisek/showtime-plugin-torrentz/releases/download/v1.0.13/torrentz.zip",
+      "homepage": "https://github.com/pisek/showtime-plugin-torrentz",
+      "icon": "https://raw.githubusercontent.com/pisek/showtime-plugin-torrentz/master/torrentz/logo.png",
+      "id": "torrentz",
+      "popularity": 1,
+      "showtimeVersion": "4.99.211",
+      "synopsis": "Torrentz - stream every torrent!",
+      "title": "Torrentz",
+      "version": "1.0.13"
+    },
+    {
+      "author": "pisek",
+      "category": "video",
+      "description": "<p>CDA.PL - Polish site with variety of content (mainly movies with polish dubbing and subtitles)</p><p>For searching please use Movian's main search field.</p><p>More info at <a href=\"https://github.com/pisek/showtime-plugin-cda\">https://github.com/pisek/showtime-plugin-cda</a> and <a href=\"http://cda.pl\">http://cda.pl</a>",
+      "downloadURL": "https://github.com/pisek/showtime-plugin-cda/releases/download/v1.0.20/cda.zip",
+      "homepage": "https://github.com/pisek/showtime-plugin-cda",
+      "icon": "https://raw.githubusercontent.com/pisek/showtime-plugin-cda/master/cda/logo.png",
+      "id": "cda",
+      "popularity": 1,
+      "showtimeVersion": "4.9.46",
+      "synopsis": "CDA.PL - Polish site with variety of content",
+      "title": "CDA.PL",
+      "version": "1.0.20"
     }
   ],
   "version": 1
