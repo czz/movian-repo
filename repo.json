@@ -87,10 +87,10 @@
     {
       "author": "pisek",
       "category": "utilities",
-      "description": "<p>showtime-plugin-transmission is a Movian plugin allowing user to manipulate downloads in Transmission program.</p><p>Transmission must be configured to enable RCP connections.</p> For more information visit <a href=\"http://www.transmissionbt.com/\">http://www.transmissionbt.com/</a>",
+      "description": "<p>Not working! Need a release, ask the developer to release a zip on github.</p><p>showtime-plugin-transmission is a Movian plugin allowing user to manipulate downloads in Transmission program.</p><p>Transmission must be configured to enable RCP connections.</p> For more information visit <a href=\"http://www.transmissionbt.com/\">http://www.transmissionbt.com/</a>",
       "downloadURL": "",
       "homepage": "https://github.com/pisek/showtime-plugin-transmission",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/pisek/showtime-plugin-transmission/master/transmission/transmission.png",
       "id": "transmission",
       "popularity": 1,
       "showtimeVersion": "4.9.46",
