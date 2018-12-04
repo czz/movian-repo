@@ -1,0 +1,33 @@
+{
+  "plugins": [
+    {
+      "author": "czz78",
+      "category": "video",
+      "description": "<p>Movian plugin for zooqle</a>",
+      "downloadURL": "https://github.com/czz/movian-plugin-zooqle/releases/download/1.0.0/zooqle.zip",
+      "homepage": "https://github.com/czz/movian-plugin-zooqle",
+      "icon": "https://github.com/czz/movian-plugin-zooqle/raw/master/logo.png",
+      "id": "zooqle",
+      "popularity": 1,
+      "showtimeVersion": "4.8",
+      "synopsis": "Zooqle herere you will be able to browse and watch movies in excellent DVD, 720p, 1080p and 3D quality",
+      "title": "Zooqle",
+      "version": "0.0.1"
+    },
+    {
+      "author": "pisek", 
+      "category": "tv",
+      "description": "<p>Telewizjada - Telewizja na żywo!</p><p>More info at <a href=\"https://github.com/pisek/showtime-plugin-telewizjada\">https://github.com/pisek/showtime-plugin-telewizjada</a> and <a href=\"http://www.telewizjada.net\">http://www.telewizjada.net</a>",
+      "downloadURL": "https://github.com/pisek/showtime-plugin-telewizjada/releases/download/v0.0.5/telewizjada.zip",
+      "homepage": "https://github.com/pisek/showtime-plugin-telewizjada",
+      "icon": "https://raw.githubusercontent.com/pisek/showtime-plugin-telewizjada/master/telewizjada/logo.png",
+      "id": "telewizjada",
+      "popularity": 1,
+      "showtimeVersion": "4.99.211",
+      "synopsis": "Telewizjada - Telewizja na zywo",
+      "title": "Telewizjada",
+      "version": "0.0.5"
+    }
+  ],
+  "version": 1
+}
