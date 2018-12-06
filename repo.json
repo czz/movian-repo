@@ -31,7 +31,17 @@
      "id": "ell_osk",
      "showtimeVersion": "5.0.0",
      "title": "Gr & Eng OSK",
-     "version": "1.0.1"
+     "version": "1.0.1",
+      "glwviews": [{
+                    "class": "osk",
+                    "title": "Gr",
+                    "file": "Ell.view"
+                   },
+                   {
+                    "class": "osk",
+                    "title": "Eng",
+                    "file": "Eng.view"
+                   }]
     },
     {
       "author": "pisek", 
