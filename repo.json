@@ -25,11 +25,6 @@
      "popularity": 1,
      "showtimeVersion": "5.0.0",
      "synopsis": "Greek and English OSK interface for Movian.",
-     "description": "This plugin installs on Movian, Greek and English OSK interface.",
-     "homepage": "www.paok.gr",
-     "type": "views",
-     "id": "ell_osk",
-     "showtimeVersion": "5.0.0",
      "title": "Gr & Eng OSK",
      "version": "1.0.1",
       "glwviews": [{
