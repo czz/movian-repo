@@ -15,6 +15,25 @@
       "version": "0.0.1"
     },
     {
+     "author": "nikkpap",
+     "category": "glwosk",
+     "description": "This plugin installs on Movian, Greek and English OSK interface.",
+     "downloadURL": "https://github.com/czz/movian-plugin-zooqle/releases/download/1.0.0/zooqle.zip",
+     "homepage": "www.paok.gr",
+     "icon": "https://raw.githubusercontent.com/nikkpap/oskGR-ENG/master/logo.png",
+     "id": "ell_osk",
+     "popularity": 1,
+     "showtimeVersion": "5.0.0",
+     "synopsis": "Greek and English OSK interface for Movian.",
+     "description": "This plugin installs on Movian, Greek and English OSK interface.",
+     "homepage": "www.paok.gr",
+     "type": "views",
+     "id": "ell_osk",
+     "showtimeVersion": "5.0.0",
+     "title": "Gr & Eng OSK",
+     "version": "1.0.1"
+    },
+    {
       "author": "pisek", 
       "category": "tv",
       "description": "<p>Telewizjada - Telewizja na żywo!</p><p>More info at <a href=\"https://github.com/pisek/showtime-plugin-telewizjada\">https://github.com/pisek/showtime-plugin-telewizjada</a> and <a href=\"http://www.telewizjada.net\">http://www.telewizjada.net</a>",
