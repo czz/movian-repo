@@ -75,18 +75,8 @@ def getPluginJson(repo_path, sha):
 ##
 #  get icon url
 #
-def getIcon(repo_path, icon_name):
-
-    url = URL + repo_path
-
-    try:
-       content = urlopen(url).read()
-       m = re.search(r"<a class=\"[^\"]+\" title=\"[^\"]+\" id=\"[^\"]+\" href=\"([^\"]+)\">"+icon_name+"</a>", content)
-       return URL + m.group(1)
-    except:
-       return False
-
-
+def getIcon(repo_path, sha, icon_name):
+    return RAWURL + repo_path + "/" + sha + "/" + icon_name
 
 
 ##
@@ -129,9 +119,8 @@ def main():
 
             print ("Setting downloadUrl")
             plugin_json['downloadUrl']= URL + repo_path + "/archive/" + sha + ".zip"
-
             print ("Setting icon")
-            plugin_json['icon']= getIcon(repo_path, plugin_json['icon'])
+            plugin_json['icon']= getIcon(repo_path, sha, plugin_json['icon'])
 
             res['plugins'].append(plugin_json)
 
