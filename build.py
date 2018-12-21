@@ -15,8 +15,6 @@ APIURL= "https://api.github.com/repos"
 RAWURL = "https://raw.githubusercontent.com"
 
 MASTERBRANCH = "/branches/master"
-#COUNTRYCODE = "US" /* deprecated. Movian get it from core */
-
 
 
 ##
@@ -86,20 +84,18 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--inputfile", help="name of file with a list of git repositories")
-    #parser.add_argument("-c", "--countrycode", help="default to US")
+    parser.add_argument("-t", "--title", help="Title")
     parser.add_argument("-o", "--outputfile", help="Name of output file")
     args = parser.parse_args()
-
-    #countrycode = COUNTRYCODE
-    #if args.countrycode:
-    #    countrycode = args.countrycode
 
     if (not args.inputfile and not args.outputfile):
         parser.print_help()
         parser.exit(1)
 
-    #res = {u"version": 1, u"plugins": [], "cc": countrycode}
     res = {u"version": 1, u"plugins": []}
+
+    if args.title:
+        res[u"title"] = args.title
 
     print ("Opening " + args.inputfile)
     file = open(args.inputfile, "r") 
