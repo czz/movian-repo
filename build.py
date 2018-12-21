@@ -15,8 +15,6 @@ APIURL= "https://api.github.com/repos"
 RAWURL = "https://raw.githubusercontent.com"
 
 MASTERBRANCH = "/branches/master"
-#COUNTRYCODE = "US" /* deprecated. Movian get it from core */
-
 
 
 ##
@@ -86,20 +84,18 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--inputfile", help="name of file with a list of git repositories")
-    #parser.add_argument("-c", "--countrycode", help="default to US")
+    parser.add_argument("-t", "--title", help="Title")
     parser.add_argument("-o", "--outputfile", help="Name of output file")
     args = parser.parse_args()
-
-    #countrycode = COUNTRYCODE
-    #if args.countrycode:
-    #    countrycode = args.countrycode
 
     if (not args.inputfile and not args.outputfile):
         parser.print_help()
         parser.exit(1)
 
-    #res = {u"version": 1, u"plugins": [], "cc": countrycode}
     res = {u"version": 1, u"plugins": []}
+
+    if args.title:
+        res[u"title"] = args.title
 
     print ("Opening " + args.inputfile)
     file = open(args.inputfile, "r") 
@@ -118,7 +114,7 @@ def main():
             plugin_json = getPluginJson(repo_path,sha)
 
             print ("Setting downloadUrl")
-            plugin_json['downloadUrl']= URL + repo_path + "/archive/" + sha + ".zip"
+            plugin_json['downloadURL']= URL + repo_path + "/archive/" + sha + ".zip"
             print ("Setting icon")
             plugin_json['icon']= getIcon(repo_path, sha, plugin_json['icon'])
 
