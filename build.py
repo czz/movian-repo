@@ -114,7 +114,7 @@ def main():
             plugin_json = getPluginJson(repo_path,sha)
 
             print ("Setting downloadUrl")
-            plugin_json['downloadUrl']= URL + repo_path + "/archive/" + sha + ".zip"
+            plugin_json['downloadURL']= URL + repo_path + "/archive/" + sha + ".zip"
             print ("Setting icon")
             plugin_json['icon']= getIcon(repo_path, sha, plugin_json['icon'])
 
