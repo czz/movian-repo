@@ -17,14 +17,14 @@ Then you can use the movian-repo tool found at https://github.com/czz/movian-rep
 Currently this tool only work with github hosted plugins.
 
 Edit a text file called repos.txt and fill it with one github repo name per line, for example:
-
-  /andoma/movian-plugin-sidplayer
-  /andoma/movian-plugin-xmpplayer
-  /andoma/movian-plugin-gmeplayer
-  /andoma/movian-plugin-modarchive
-
+~~~
+/andoma/movian-plugin-sidplayer
+/andoma/movian-plugin-xmpplayer
+/andoma/movian-plugin-gmeplayer
+/andoma/movian-plugin-modarchive
+~~~
 Run it like this:
-
+~~~
   python build.py -i repos.txt -o repo.json
-
+~~~
 Then you can upload this file on github pages or host it in any way you like. Then give the URL to your users.
