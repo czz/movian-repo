@@ -1,5 +1,5 @@
 # movian-repo
-movian repository
+build movian repository json file
 
 
 ## How to publish plugins
